@@ -65,3 +65,63 @@ nav a{
   margin-top: 10rem;
   margin-right: -2rem;
 }
+
+,main{
+  display: flex;
+  flex-direction: column;
+}
+
+#icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sicon{
+  margin: 3rem 3rem;
+  justify-content: space-between;
+}
+
+.sicon img{
+  width: 3.5rem
+}
+
+#icons span{
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.block{
+  background-color: cadetblue;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem
+}
+
+.info1 p{
+  width: 35%;
+  margin-top: 1rem;
+  margin-right: 5%;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4rem 4rem;
+  margin-top: 5rem;
+  background-color: azure;
+}
+
+footer img{
+  height: 1.5rem;
+  padding-right: 1rem
+}
