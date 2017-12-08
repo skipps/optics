@@ -55,8 +55,11 @@ nav a{
   text-decoration: none;
 }
 
+#hidden{
+  visibility: hidden;
+}
+
 .motto{
-  display: flex;
   background-color: white;
   padding: 1.5rem 5rem;
   font-size: 2rem;
@@ -124,4 +127,62 @@ footer{
 footer img{
   height: 1.5rem;
   padding-right: 1rem
+}
+
+@media only screen and (max-width: 960px){
+  .container{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header{
+    background-size: cover;
+    height: 22rem;
+  }
+
+  .motto{
+    background-color: white;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header{
+    height: 17rem;
+  }
+
+  .logo span{
+    visibility: hidden;
+  }
+
+  #hidden{
+    visibility: visible;
+  }
+
+  nav a{
+    visibility: hidden;
+  }
+
+  .motto{
+    background-color: white;
+    padding: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-top: 9rem;
+  }
+
+  #icons{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info{
+    flex-direction: column;
+    align-items: center;
+  }
 }
